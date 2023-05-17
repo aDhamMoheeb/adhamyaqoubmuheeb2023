@@ -72,6 +72,15 @@
 </dependencies>
 
 
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.1</version>
+    <configuration>
+        <source>6</source>   <!-- Update to the desired Java source version -->
+        <target>1.6</target> <!-- Update to the desired Java target version -->
+    </configuration>
+</plugin>
 
 
 </project>
